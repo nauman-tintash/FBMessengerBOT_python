@@ -1,6 +1,8 @@
 #Libraries Needed
+import random
 from flask import Flask, request
 from pymessenger.bot import Bot
+import os
 
 #Basic blocks needed
 ACCESS_TOKEN = 'EAAC4MK9k4bMBAFupDg7BvcC83P59mwL6VNpoXEPzQCJFCRc3lGexgvyLZBu4lJDnuhX6KcutQsNToXFik3gn6lI5hEYKapr7UOueZBccstXGt4hMZA1tZCEPPPoXd1MoEgbMTSLwtPanrJz9eIewVoMP5RjqkXY7Tug4w0j0IAZDZD'
